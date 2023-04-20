@@ -3,6 +3,7 @@ FROM python:3.10-slim
 
 # Install git
 RUN apt-get -y update
+#check this in m1
 RUN apt-get -y install git chromium-driver
 
 # Install Xvfb and other dependencies for headless browser testing
